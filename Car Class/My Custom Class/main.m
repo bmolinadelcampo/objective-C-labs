@@ -43,6 +43,12 @@ int main(int argc, const char * argv[]) {
         my3rdCar = [[Car alloc] initWithMake:@"Aston Martin" age:4];
         NSLog(@"My third car is a %@ and it is %d years old\n", my3rdCar.make, my3rdCar.age);
         
+        id genericObject;
+        genericObject = myCar;
+        [genericObject setMake:@"Lotus"];
+        [genericObject setAge:3];
+        NSLog(@"I am genericObject. My make is %@ and my age is %d.\n", [genericObject make], [genericObject age]);
+        
     }
     
     

@@ -31,4 +31,6 @@
 - (BOOL)isServiceRequired;
 - (void) driveCar;
 
+- (id)initWithMake: (NSString *)initMake age: (int)initAge;
+
 @end

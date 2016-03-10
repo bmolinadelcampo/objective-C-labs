@@ -12,29 +12,29 @@
 
 @implementation Car
 
-- (int)age{
-    return age;
-}
-
-- (void)setAge: (int)value{
-    age = value;
-}
-
-- (NSString *)make{
-    return make;
-}
-
-- (void)setMake:(NSString *)value{
-    make = value;
-}
-
-- (BOOL)engineOn{
-    return engineOn;
-}
-
-- (void)setEngineOn:(BOOL)value{
-    engineOn = value;
-}
+//- (int)age{
+//    return age;
+//}
+//
+//- (void)setAge: (int)value{
+//    age = value;
+//}
+//
+//- (NSString *)make{
+//    return make;
+//}
+//
+//- (void)setMake:(NSString *)value{
+//    make = value;
+//}
+//
+//- (BOOL)engineOn{
+//    return engineOn;
+//}
+//
+//- (void)setEngineOn:(BOOL)value{
+//    engineOn = value;
+//}
 
 - (BOOL)isServiceRequired {
     return ([self age] > 1);
@@ -51,8 +51,8 @@
 - (id)init {
     self = [super init];
     if(self){
-        age = 20;
-        make = @"Mini";
+        _age = 20;
+        _make = @"Mini";
     }
     return self;
 }
@@ -60,8 +60,8 @@
 - (id)initWithMake: (NSString *)initMake age: (int)initAge{
     self = [super init];
     if (self) {
-        make = initMake;
-        age = initAge;
+        _make = initMake;
+        _age = initAge;
     }
     return self;
 }
