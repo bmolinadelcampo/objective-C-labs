@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "976E86D01C902BD500901D67"
-               BuildableName = "SortArray"
-               BlueprintName = "SortArray"
-               ReferencedContainer = "container:SortArray.xcodeproj">
+               BlueprintIdentifier = "972724581C91DEF100A9649C"
+               BuildableName = "Sort Array"
+               BlueprintName = "Sort Array"
+               ReferencedContainer = "container:Sort Array.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "976E86D01C902BD500901D67"
-            BuildableName = "SortArray"
-            BlueprintName = "SortArray"
-            ReferencedContainer = "container:SortArray.xcodeproj">
+            BlueprintIdentifier = "972724581C91DEF100A9649C"
+            BuildableName = "Sort Array"
+            BlueprintName = "Sort Array"
+            ReferencedContainer = "container:Sort Array.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "976E86D01C902BD500901D67"
-            BuildableName = "SortArray"
-            BlueprintName = "SortArray"
-            ReferencedContainer = "container:SortArray.xcodeproj">
+            BlueprintIdentifier = "972724581C91DEF100A9649C"
+            BuildableName = "Sort Array"
+            BlueprintName = "Sort Array"
+            ReferencedContainer = "container:Sort Array.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "976E86D01C902BD500901D67"
-            BuildableName = "SortArray"
-            BlueprintName = "SortArray"
-            ReferencedContainer = "container:SortArray.xcodeproj">
+            BlueprintIdentifier = "972724581C91DEF100A9649C"
+            BuildableName = "Sort Array"
+            BlueprintName = "Sort Array"
+            ReferencedContainer = "container:Sort Array.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
