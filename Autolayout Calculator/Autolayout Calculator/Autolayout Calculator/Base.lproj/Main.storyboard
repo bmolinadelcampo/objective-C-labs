@@ -36,6 +36,54 @@
                                         <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
                                         <animations/>
                                         <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="(">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euG-fh-bbo">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title=")">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1U-qX-xlh">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="mc">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHo-wt-lAg">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="m+">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZi-Cn-Z5P">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="m-">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daB-NQ-btK">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="mr">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVQ-dt-zf2">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.52329940029999999" green="0.4995130639" blue="0.4995130639" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="AC">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -66,10 +114,78 @@
                                     </button>
                                 </subviews>
                                 <animations/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="euG-fh-bbo"/>
+                                        <exclude reference="f1U-qX-xlh"/>
+                                        <exclude reference="JHo-wt-lAg"/>
+                                        <exclude reference="FZi-Cn-Z5P"/>
+                                        <exclude reference="daB-NQ-btK"/>
+                                        <exclude reference="hVQ-dt-zf2"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="euG-fh-bbo"/>
+                                        <include reference="f1U-qX-xlh"/>
+                                        <include reference="JHo-wt-lAg"/>
+                                        <include reference="FZi-Cn-Z5P"/>
+                                        <include reference="daB-NQ-btK"/>
+                                        <include reference="hVQ-dt-zf2"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GTG-Pp-Loe">
                                 <rect key="frame" x="20" y="208" width="560" height="93"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qE-gQ-pAH">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882352941179" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="2nd">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6Z-qz-fBW">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^2">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYL-XA-fG2">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^3">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOv-eh-fQS">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^y">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFV-QV-Neu">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="e^x">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9J-u8-BIl">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="10^x">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7Q-17-6VF">
                                         <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
                                         <animations/>
@@ -104,10 +220,78 @@
                                     </button>
                                 </subviews>
                                 <animations/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="2qE-gQ-pAH"/>
+                                        <exclude reference="o6Z-qz-fBW"/>
+                                        <exclude reference="XYL-XA-fG2"/>
+                                        <exclude reference="jOv-eh-fQS"/>
+                                        <exclude reference="gFV-QV-Neu"/>
+                                        <exclude reference="q9J-u8-BIl"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="2qE-gQ-pAH"/>
+                                        <include reference="o6Z-qz-fBW"/>
+                                        <include reference="XYL-XA-fG2"/>
+                                        <include reference="jOv-eh-fQS"/>
+                                        <include reference="gFV-QV-Neu"/>
+                                        <include reference="q9J-u8-BIl"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rnz-es-aWe">
                                 <rect key="frame" x="20" y="306" width="560" height="93"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajB-Mu-Pa6">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="1/x">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljg-gK-KRL">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^(1/2)">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1L-U1-BqV">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^(1/3)">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByT-yC-X89">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x^(1/y)">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tU-nz-7Aj">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="ln">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WA-g3-zkL">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="log10">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpk-IO-9WK">
                                         <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
                                         <animations/>
@@ -142,10 +326,78 @@
                                     </button>
                                 </subviews>
                                 <animations/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="ajB-Mu-Pa6"/>
+                                        <exclude reference="Ljg-gK-KRL"/>
+                                        <exclude reference="Y1L-U1-BqV"/>
+                                        <exclude reference="ByT-yC-X89"/>
+                                        <exclude reference="3tU-nz-7Aj"/>
+                                        <exclude reference="4WA-g3-zkL"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="ajB-Mu-Pa6"/>
+                                        <include reference="Ljg-gK-KRL"/>
+                                        <include reference="Y1L-U1-BqV"/>
+                                        <include reference="ByT-yC-X89"/>
+                                        <include reference="3tU-nz-7Aj"/>
+                                        <include reference="4WA-g3-zkL"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nB6-N3-3kg">
                                 <rect key="frame" x="20" y="404" width="560" height="93"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdE-Yn-kTt">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="x!">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yke-mu-tgb">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="sin">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY1-Bf-OEg">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="cos">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rv-LA-uga">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="tan">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-XX-JJF">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="e">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofS-qX-AlC">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="EE">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWI-Ch-19R">
                                         <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
                                         <animations/>
@@ -180,10 +432,78 @@
                                     </button>
                                 </subviews>
                                 <animations/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="sdE-Yn-kTt"/>
+                                        <exclude reference="yke-mu-tgb"/>
+                                        <exclude reference="bY1-Bf-OEg"/>
+                                        <exclude reference="4rv-LA-uga"/>
+                                        <exclude reference="rKe-XX-JJF"/>
+                                        <exclude reference="ofS-qX-AlC"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="sdE-Yn-kTt"/>
+                                        <include reference="yke-mu-tgb"/>
+                                        <include reference="bY1-Bf-OEg"/>
+                                        <include reference="4rv-LA-uga"/>
+                                        <include reference="rKe-XX-JJF"/>
+                                        <include reference="ofS-qX-AlC"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kyl-IC-JUb">
                                 <rect key="frame" x="20" y="502" width="560" height="93"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqO-ZX-gMF">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Rad">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlk-qJ-BgM">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="sinh">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYR-NK-CJm">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="cosh">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccv-d5-FBx">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="tanh">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-Qu-tmX">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="pi">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tiv-k4-6iq">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="93"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.44705882349999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Rand">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcf-z8-X3n">
                                         <rect key="frame" x="0.0" y="0.0" width="278.5" height="93"/>
                                         <animations/>
@@ -211,9 +531,59 @@
                                 </subviews>
                                 <animations/>
                                 <constraints>
+                                    <constraint firstItem="Ccv-d5-FBx" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="3Al-p5-BUW"/>
                                     <constraint firstItem="WWK-pF-YZq" firstAttribute="width" secondItem="WDZ-pX-gpX" secondAttribute="width" id="9Lx-uR-BDi"/>
+                                    <constraint firstItem="WWK-pF-YZq" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="RM7-9U-kFM"/>
+                                    <constraint firstItem="KKQ-Qu-tmX" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="ccF-27-CRH"/>
                                     <constraint firstItem="gcf-z8-X3n" firstAttribute="width" secondItem="WWK-pF-YZq" secondAttribute="width" multiplier="2.05:1" id="gFf-fa-7uk"/>
+                                    <constraint firstItem="Tiv-k4-6iq" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="mJt-8g-gML"/>
+                                    <constraint firstItem="gcf-z8-X3n" firstAttribute="width" secondItem="WWK-pF-YZq" secondAttribute="width" multiplier="2.1:1" id="nkx-dd-tfx"/>
+                                    <constraint firstItem="dlk-qJ-BgM" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="oHb-4j-5aK"/>
+                                    <constraint firstItem="WDZ-pX-gpX" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="qER-be-mgI"/>
+                                    <constraint firstItem="nYR-NK-CJm" firstAttribute="width" secondItem="jqO-ZX-gMF" secondAttribute="width" id="yHc-9s-byb"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="jqO-ZX-gMF"/>
+                                        <exclude reference="dlk-qJ-BgM"/>
+                                        <exclude reference="nYR-NK-CJm"/>
+                                        <exclude reference="Ccv-d5-FBx"/>
+                                        <exclude reference="KKQ-Qu-tmX"/>
+                                        <exclude reference="Tiv-k4-6iq"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="oHb-4j-5aK"/>
+                                        <exclude reference="yHc-9s-byb"/>
+                                        <exclude reference="3Al-p5-BUW"/>
+                                        <exclude reference="ccF-27-CRH"/>
+                                        <exclude reference="mJt-8g-gML"/>
+                                        <exclude reference="nkx-dd-tfx"/>
+                                        <exclude reference="RM7-9U-kFM"/>
+                                        <exclude reference="qER-be-mgI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="jqO-ZX-gMF"/>
+                                        <include reference="dlk-qJ-BgM"/>
+                                        <include reference="nYR-NK-CJm"/>
+                                        <include reference="Ccv-d5-FBx"/>
+                                        <include reference="KKQ-Qu-tmX"/>
+                                        <include reference="Tiv-k4-6iq"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="oHb-4j-5aK"/>
+                                        <include reference="yHc-9s-byb"/>
+                                        <include reference="3Al-p5-BUW"/>
+                                        <include reference="ccF-27-CRH"/>
+                                        <include reference="mJt-8g-gML"/>
+                                        <exclude reference="gFf-fa-7uk"/>
+                                        <include reference="nkx-dd-tfx"/>
+                                        <exclude reference="9Lx-uR-BDi"/>
+                                        <include reference="RM7-9U-kFM"/>
+                                        <include reference="qER-be-mgI"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <animations/>
@@ -222,19 +592,18 @@
                             <constraint firstItem="kyl-IC-JUb" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="168-QT-6io"/>
                             <constraint firstItem="rnz-es-aWe" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="1fV-HX-W7s"/>
                             <constraint firstItem="meS-HL-3yG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2Bn-gn-xwN"/>
-                            <constraint firstItem="rnz-es-aWe" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="4jK-XQ-p3Y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="meS-HL-3yG" secondAttribute="trailing" id="5MC-cx-361"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kyl-IC-JUb" secondAttribute="bottom" constant="5" id="C9i-2W-O3L"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kyl-IC-JUb" secondAttribute="trailing" id="F3B-eB-xl4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ifA-cc-YDt" secondAttribute="trailing" id="Fha-tl-HQR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rnz-es-aWe" secondAttribute="trailing" id="GXc-PQ-arb"/>
                             <constraint firstItem="GTG-Pp-Loe" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="LLV-sa-xDf"/>
+                            <constraint firstItem="Ccv-d5-FBx" firstAttribute="height" secondItem="4rv-LA-uga" secondAttribute="height" id="LN5-2k-2UI"/>
                             <constraint firstItem="rnz-es-aWe" firstAttribute="top" secondItem="GTG-Pp-Loe" secondAttribute="bottom" constant="5" id="MMz-M7-T8P"/>
-                            <constraint firstItem="GTG-Pp-Loe" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="MjO-kt-lBd"/>
                             <constraint firstItem="GTG-Pp-Loe" firstAttribute="top" secondItem="gG0-BA-ygR" secondAttribute="bottom" constant="-10" id="NEV-Os-n9M"/>
                             <constraint firstItem="gcf-z8-X3n" firstAttribute="height" secondItem="VB9-5O-l7H" secondAttribute="height" id="Nds-bj-sl2"/>
-                            <constraint firstItem="kyl-IC-JUb" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="PuP-lI-gmM"/>
                             <constraint firstItem="ifA-cc-YDt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TrE-pI-3lQ"/>
+                            <constraint firstItem="KKQ-Qu-tmX" firstAttribute="height" secondItem="rKe-XX-JJF" secondAttribute="height" id="UTk-yg-mHm"/>
                             <constraint firstItem="nB6-N3-3kg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Uy6-Ym-5y1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nB6-N3-3kg" secondAttribute="trailing" constant="385" id="VXp-WD-D97"/>
                             <constraint firstItem="GTG-Pp-Loe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wgo-XF-08L"/>
@@ -245,21 +614,43 @@
                             <constraint firstItem="meS-HL-3yG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="a5E-8z-fYa"/>
                             <constraint firstItem="GTG-Pp-Loe" firstAttribute="top" secondItem="meS-HL-3yG" secondAttribute="bottom" constant="5" id="fPc-NM-z19"/>
                             <constraint firstItem="kyl-IC-JUb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ggh-mG-rdc"/>
+                            <constraint firstItem="Tiv-k4-6iq" firstAttribute="height" secondItem="ofS-qX-AlC" secondAttribute="height" id="ggn-HS-gJb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GTG-Pp-Loe" secondAttribute="trailing" id="gwT-5O-oYT"/>
                             <constraint firstItem="rnz-es-aWe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h04-YI-9do"/>
-                            <constraint firstItem="nB6-N3-3kg" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="hta-9I-hAH"/>
+                            <constraint firstItem="jqO-ZX-gMF" firstAttribute="height" secondItem="sdE-Yn-kTt" secondAttribute="height" id="hF7-kd-F82"/>
                             <constraint firstItem="kyl-IC-JUb" firstAttribute="top" secondItem="nB6-N3-3kg" secondAttribute="bottom" constant="5" id="hyE-LE-UlL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nB6-N3-3kg" secondAttribute="trailing" id="i5A-U3-TfO"/>
                             <constraint firstItem="meS-HL-3yG" firstAttribute="top" secondItem="ifA-cc-YDt" secondAttribute="bottom" id="pKc-6X-wL3"/>
                             <constraint firstItem="ifA-cc-YDt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="pLO-xx-UN8"/>
+                            <constraint firstItem="Ccv-d5-FBx" firstAttribute="height" secondItem="4rv-LA-uga" secondAttribute="height" id="qEb-Dq-X0g"/>
                             <constraint firstItem="nB6-N3-3kg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sXX-3K-ZKc"/>
+                            <constraint firstItem="nYR-NK-CJm" firstAttribute="height" secondItem="bY1-Bf-OEg" secondAttribute="height" id="ugW-12-iii"/>
                             <constraint firstItem="nB6-N3-3kg" firstAttribute="height" secondItem="meS-HL-3yG" secondAttribute="height" id="vDp-Nf-yzd"/>
+                            <constraint firstItem="dlk-qJ-BgM" firstAttribute="height" secondItem="yke-mu-tgb" secondAttribute="height" id="xdv-Za-1QB"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="NEV-Os-n9M"/>
                                 <exclude reference="VXp-WD-D97"/>
                                 <exclude reference="sXX-3K-ZKc"/>
+                                <exclude reference="hF7-kd-F82"/>
+                                <exclude reference="xdv-Za-1QB"/>
+                                <exclude reference="ugW-12-iii"/>
+                                <exclude reference="LN5-2k-2UI"/>
+                                <exclude reference="qEb-Dq-X0g"/>
+                                <exclude reference="UTk-yg-mHm"/>
+                                <exclude reference="ggn-HS-gJb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="hF7-kd-F82"/>
+                                <include reference="xdv-Za-1QB"/>
+                                <include reference="ugW-12-iii"/>
+                                <include reference="LN5-2k-2UI"/>
+                                <include reference="qEb-Dq-X0g"/>
+                                <include reference="UTk-yg-mHm"/>
+                                <include reference="ggn-HS-gJb"/>
                             </mask>
                         </variation>
                     </view>
