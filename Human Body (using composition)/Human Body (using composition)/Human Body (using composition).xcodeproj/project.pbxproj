@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B633C91C9C4D7700BA68C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633C81C9C4D7700BA68C6 /* main.m */; };
+		97B633D11C9C4D9C00BA68C6 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633D01C9C4D9C00BA68C6 /* Human.m */; };
+		97B633D41C9C4DCA00BA68C6 /* BodyPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633D31C9C4DCA00BA68C6 /* BodyPart.m */; };
+		97B633D71C9C50A700BA68C6 /* Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633D61C9C50A700BA68C6 /* Head.m */; };
+		97B633DA1C9C511200BA68C6 /* Trunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633D91C9C511200BA68C6 /* Trunk.m */; };
+		97B633E01C9C51BD00BA68C6 /* Eye.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633DF1C9C51BD00BA68C6 /* Eye.m */; };
+		97B633E31C9C525B00BA68C6 /* Nose.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633E21C9C525B00BA68C6 /* Nose.m */; };
+		97B633E61C9C529500BA68C6 /* Mouth.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633E51C9C529500BA68C6 /* Mouth.m */; };
+		97B633E91C9C52CE00BA68C6 /* Ear.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633E81C9C52CE00BA68C6 /* Ear.m */; };
+		97B633EC1C9C551200BA68C6 /* Teeth.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633EB1C9C551200BA68C6 /* Teeth.m */; };
+		97B633F51C9C572D00BA68C6 /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633F41C9C572D00BA68C6 /* Leg.m */; };
+		97B633F81C9C574100BA68C6 /* Arm.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633F71C9C574100BA68C6 /* Arm.m */; };
+		97B633FB1C9C57EC00BA68C6 /* Knee.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B633FA1C9C57EC00BA68C6 /* Knee.m */; };
+		97B634011C9C58C700BA68C6 /* Foot.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634001C9C58C700BA68C6 /* Foot.m */; };
+		97B634041C9C590500BA68C6 /* Toe.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634031C9C590500BA68C6 /* Toe.m */; };
+		97B634071C9C59B000BA68C6 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634061C9C59B000BA68C6 /* Hand.m */; };
+		97B6340A1C9C5A0900BA68C6 /* Finger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634091C9C5A0900BA68C6 /* Finger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97B633C31C9C4D7700BA68C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97B633C51C9C4D7700BA68C6 /* Human Body (using composition) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Human Body (using composition)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B633C81C9C4D7700BA68C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97B633CF1C9C4D9C00BA68C6 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		97B633D01C9C4D9C00BA68C6 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		97B633D21C9C4DCA00BA68C6 /* BodyPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyPart.h; sourceTree = "<group>"; };
+		97B633D31C9C4DCA00BA68C6 /* BodyPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyPart.m; sourceTree = "<group>"; };
+		97B633D51C9C50A700BA68C6 /* Head.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Head.h; sourceTree = "<group>"; };
+		97B633D61C9C50A700BA68C6 /* Head.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Head.m; sourceTree = "<group>"; };
+		97B633D81C9C511200BA68C6 /* Trunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trunk.h; sourceTree = "<group>"; };
+		97B633D91C9C511200BA68C6 /* Trunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trunk.m; sourceTree = "<group>"; };
+		97B633DE1C9C51BD00BA68C6 /* Eye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eye.h; sourceTree = "<group>"; };
+		97B633DF1C9C51BD00BA68C6 /* Eye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eye.m; sourceTree = "<group>"; };
+		97B633E11C9C525B00BA68C6 /* Nose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nose.h; sourceTree = "<group>"; };
+		97B633E21C9C525B00BA68C6 /* Nose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nose.m; sourceTree = "<group>"; };
+		97B633E41C9C529500BA68C6 /* Mouth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouth.h; sourceTree = "<group>"; };
+		97B633E51C9C529500BA68C6 /* Mouth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouth.m; sourceTree = "<group>"; };
+		97B633E71C9C52CE00BA68C6 /* Ear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ear.h; sourceTree = "<group>"; };
+		97B633E81C9C52CE00BA68C6 /* Ear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ear.m; sourceTree = "<group>"; };
+		97B633EA1C9C551200BA68C6 /* Teeth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teeth.h; sourceTree = "<group>"; };
+		97B633EB1C9C551200BA68C6 /* Teeth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teeth.m; sourceTree = "<group>"; };
+		97B633F31C9C572D00BA68C6 /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leg.h; sourceTree = "<group>"; };
+		97B633F41C9C572D00BA68C6 /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leg.m; sourceTree = "<group>"; };
+		97B633F61C9C574100BA68C6 /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
+		97B633F71C9C574100BA68C6 /* Arm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arm.m; sourceTree = "<group>"; };
+		97B633F91C9C57EC00BA68C6 /* Knee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knee.h; sourceTree = "<group>"; };
+		97B633FA1C9C57EC00BA68C6 /* Knee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knee.m; sourceTree = "<group>"; };
+		97B633FF1C9C58C700BA68C6 /* Foot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foot.h; path = ../Foot.h; sourceTree = "<group>"; };
+		97B634001C9C58C700BA68C6 /* Foot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foot.m; path = ../Foot.m; sourceTree = "<group>"; };
+		97B634021C9C590500BA68C6 /* Toe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toe.h; sourceTree = "<group>"; };
+		97B634031C9C590500BA68C6 /* Toe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toe.m; sourceTree = "<group>"; };
+		97B634051C9C59B000BA68C6 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		97B634061C9C59B000BA68C6 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		97B634081C9C5A0900BA68C6 /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
+		97B634091C9C5A0900BA68C6 /* Finger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B633C21C9C4D7700BA68C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97B633BC1C9C4D7700BA68C6 = {
+			isa = PBXGroup;
+			children = (
+				97B633C71C9C4D7700BA68C6 /* Human Body (using composition) */,
+				97B633C61C9C4D7700BA68C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B633C61C9C4D7700BA68C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B633C51C9C4D7700BA68C6 /* Human Body (using composition) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B633C71C9C4D7700BA68C6 /* Human Body (using composition) */ = {
+			isa = PBXGroup;
+			children = (
+				97B633C81C9C4D7700BA68C6 /* main.m */,
+				97B633CF1C9C4D9C00BA68C6 /* Human.h */,
+				97B633D01C9C4D9C00BA68C6 /* Human.m */,
+				97B633D21C9C4DCA00BA68C6 /* BodyPart.h */,
+				97B633D31C9C4DCA00BA68C6 /* BodyPart.m */,
+				97B633D51C9C50A700BA68C6 /* Head.h */,
+				97B633D61C9C50A700BA68C6 /* Head.m */,
+				97B633DE1C9C51BD00BA68C6 /* Eye.h */,
+				97B633DF1C9C51BD00BA68C6 /* Eye.m */,
+				97B633E11C9C525B00BA68C6 /* Nose.h */,
+				97B633E21C9C525B00BA68C6 /* Nose.m */,
+				97B633E41C9C529500BA68C6 /* Mouth.h */,
+				97B633E51C9C529500BA68C6 /* Mouth.m */,
+				97B633EA1C9C551200BA68C6 /* Teeth.h */,
+				97B633EB1C9C551200BA68C6 /* Teeth.m */,
+				97B633E71C9C52CE00BA68C6 /* Ear.h */,
+				97B633E81C9C52CE00BA68C6 /* Ear.m */,
+				97B633D81C9C511200BA68C6 /* Trunk.h */,
+				97B633D91C9C511200BA68C6 /* Trunk.m */,
+				97B633F31C9C572D00BA68C6 /* Leg.h */,
+				97B633F41C9C572D00BA68C6 /* Leg.m */,
+				97B633F91C9C57EC00BA68C6 /* Knee.h */,
+				97B633FA1C9C57EC00BA68C6 /* Knee.m */,
+				97B633FF1C9C58C700BA68C6 /* Foot.h */,
+				97B634001C9C58C700BA68C6 /* Foot.m */,
+				97B634021C9C590500BA68C6 /* Toe.h */,
+				97B634031C9C590500BA68C6 /* Toe.m */,
+				97B633F61C9C574100BA68C6 /* Arm.h */,
+				97B633F71C9C574100BA68C6 /* Arm.m */,
+				97B634051C9C59B000BA68C6 /* Hand.h */,
+				97B634061C9C59B000BA68C6 /* Hand.m */,
+				97B634081C9C5A0900BA68C6 /* Finger.h */,
+				97B634091C9C5A0900BA68C6 /* Finger.m */,
+			);
+			path = "Human Body (using composition)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B633C41C9C4D7700BA68C6 /* Human Body (using composition) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B633CC1C9C4D7700BA68C6 /* Build configuration list for PBXNativeTarget "Human Body (using composition)" */;
+			buildPhases = (
+				97B633C11C9C4D7700BA68C6 /* Sources */,
+				97B633C21C9C4D7700BA68C6 /* Frameworks */,
+				97B633C31C9C4D7700BA68C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Human Body (using composition)";
+			productName = "Human Body (using composition)";
+			productReference = 97B633C51C9C4D7700BA68C6 /* Human Body (using composition) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B633BD1C9C4D7700BA68C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Belén Molina del Campo";
+				TargetAttributes = {
+					97B633C41C9C4D7700BA68C6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 97B633C01C9C4D7700BA68C6 /* Build configuration list for PBXProject "Human Body (using composition)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97B633BC1C9C4D7700BA68C6;
+			productRefGroup = 97B633C61C9C4D7700BA68C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B633C41C9C4D7700BA68C6 /* Human Body (using composition) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B633C11C9C4D7700BA68C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B633FB1C9C57EC00BA68C6 /* Knee.m in Sources */,
+				97B633F81C9C574100BA68C6 /* Arm.m in Sources */,
+				97B633F51C9C572D00BA68C6 /* Leg.m in Sources */,
+				97B634011C9C58C700BA68C6 /* Foot.m in Sources */,
+				97B633E01C9C51BD00BA68C6 /* Eye.m in Sources */,
+				97B633DA1C9C511200BA68C6 /* Trunk.m in Sources */,
+				97B634041C9C590500BA68C6 /* Toe.m in Sources */,
+				97B633C91C9C4D7700BA68C6 /* main.m in Sources */,
+				97B6340A1C9C5A0900BA68C6 /* Finger.m in Sources */,
+				97B633D11C9C4D9C00BA68C6 /* Human.m in Sources */,
+				97B633D41C9C4DCA00BA68C6 /* BodyPart.m in Sources */,
+				97B633E91C9C52CE00BA68C6 /* Ear.m in Sources */,
+				97B633E61C9C529500BA68C6 /* Mouth.m in Sources */,
+				97B634071C9C59B000BA68C6 /* Hand.m in Sources */,
+				97B633E31C9C525B00BA68C6 /* Nose.m in Sources */,
+				97B633D71C9C50A700BA68C6 /* Head.m in Sources */,
+				97B633EC1C9C551200BA68C6 /* Teeth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97B633CA1C9C4D7700BA68C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		97B633CB1C9C4D7700BA68C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97B633CD1C9C4D7700BA68C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97B633CE1C9C4D7700BA68C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B633C01C9C4D7700BA68C6 /* Build configuration list for PBXProject "Human Body (using composition)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B633CA1C9C4D7700BA68C6 /* Debug */,
+				97B633CB1C9C4D7700BA68C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B633CC1C9C4D7700BA68C6 /* Build configuration list for PBXNativeTarget "Human Body (using composition)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B633CD1C9C4D7700BA68C6 /* Debug */,
+				97B633CE1C9C4D7700BA68C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B633BD1C9C4D7700BA68C6 /* Project object */;
+}

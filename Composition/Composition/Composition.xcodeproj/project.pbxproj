@@ -68,11 +68,11 @@
 			children = (
 				97B632361C970ADD00BA68C6 /* main.m */,
 				97B6323D1C970AFC00BA68C6 /* Car.h */,
+				97B6323E1C970AFC00BA68C6 /* Car.m */,
 				97B632401C970B7100BA68C6 /* Tyres.h */,
 				97B632411C970B7100BA68C6 /* Tyres.m */,
 				97B632431C970B7C00BA68C6 /* Engine.h */,
 				97B632441C970B7C00BA68C6 /* Engine.m */,
-				97B6323E1C970AFC00BA68C6 /* Car.m */,
 			);
 			path = Composition;
 			sourceTree = "<group>";
@@ -255,6 +255,7 @@
 				97B6323C1C970ADD00BA68C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
