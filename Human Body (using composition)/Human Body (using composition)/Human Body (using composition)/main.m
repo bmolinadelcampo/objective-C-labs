@@ -16,6 +16,10 @@ int main(int argc, const char * argv[]) {
         [person.arms.hands grabThisThing:@"ball"];
         [person.head.eyes lookAtMe];
         [person.legs.feet kickTheBall];
+        
+        person.head.brain.delegate = person.arms.hands;
+        
+        [person.head.brain commandToSayHello];
     }
     
     return 0;

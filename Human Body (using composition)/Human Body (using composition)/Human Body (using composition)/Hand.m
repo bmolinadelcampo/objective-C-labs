@@ -22,7 +22,12 @@
 
 - (void) grabThisThing: (NSString*) thingToGrab
 {
-    NSLog(@"My hands are grabing the %@", thingToGrab);
+    NSLog(@"My hands are grabbing the %@", thingToGrab);
+}
+
+-(void)sayHello
+{
+    NSLog(@"I'm waving my hand");
 }
 
 

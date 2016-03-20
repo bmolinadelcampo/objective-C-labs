@@ -24,6 +24,7 @@
 		97B634041C9C590500BA68C6 /* Toe.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634031C9C590500BA68C6 /* Toe.m */; };
 		97B634071C9C59B000BA68C6 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634061C9C59B000BA68C6 /* Hand.m */; };
 		97B6340A1C9C5A0900BA68C6 /* Finger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B634091C9C5A0900BA68C6 /* Finger.m */; };
+		97B6340D1C9DF30000BA68C6 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B6340C1C9DF30000BA68C6 /* Brain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,9 @@
 		97B634061C9C59B000BA68C6 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
 		97B634081C9C5A0900BA68C6 /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
 		97B634091C9C5A0900BA68C6 /* Finger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finger.m; sourceTree = "<group>"; };
+		97B6340B1C9DF30000BA68C6 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		97B6340C1C9DF30000BA68C6 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		97B6340E1C9DF81200BA68C6 /* bodyPartControlling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bodyPartControlling.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,9 @@
 				97B633D31C9C4DCA00BA68C6 /* BodyPart.m */,
 				97B633D51C9C50A700BA68C6 /* Head.h */,
 				97B633D61C9C50A700BA68C6 /* Head.m */,
+				97B6340B1C9DF30000BA68C6 /* Brain.h */,
+				97B6340C1C9DF30000BA68C6 /* Brain.m */,
+				97B6340E1C9DF81200BA68C6 /* bodyPartControlling.h */,
 				97B633DE1C9C51BD00BA68C6 /* Eye.h */,
 				97B633DF1C9C51BD00BA68C6 /* Eye.m */,
 				97B633E11C9C525B00BA68C6 /* Nose.h */,
@@ -198,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B6340D1C9DF30000BA68C6 /* Brain.m in Sources */,
 				97B633FB1C9C57EC00BA68C6 /* Knee.m in Sources */,
 				97B633F81C9C574100BA68C6 /* Arm.m in Sources */,
 				97B633F51C9C572D00BA68C6 /* Leg.m in Sources */,

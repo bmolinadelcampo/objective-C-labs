@@ -8,10 +8,14 @@
 
 #import "BodyPart.h"
 #import "Finger.h"
-@interface Hand : BodyPart
+#import "bodyPartControlling.h"
+
+@interface Hand : BodyPart <bodyPartControlling>
 
 @property (strong, nonatomic) Finger *fingers;
 
 - (void) grabThisThing: (NSString*) thingToGrab;
+- (void)sayHello;
+
 
 @end

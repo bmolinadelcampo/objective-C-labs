@@ -12,17 +12,23 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSNumber *a, *b, *c;
+        NSNumber *a, *b, *c, *d;
         
-        a = @4;
-        b = @(-1);
-        c = @17;
+        a = @17;
+        b = @4;
+        c = @(-1);
+        d = @0;
         
-        NSMutableArray *array = [NSMutableArray arrayWithObjects: a, b, c, nil];
+        NSMutableArray *array = [NSMutableArray arrayWithObjects: a, b, c, d, nil];
+        SortArray *sorter = [SortArray new];
+        
+        
+        // Bubble sort
+        
+        [sorter bubbleSort:array];
+        NSLog(@"Sorted array is %@", array);
         
         //Using instance method
-        
-        SortArray *sorter = [SortArray new];
         
         [sorter sort: array];
         

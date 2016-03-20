@@ -11,9 +11,11 @@
 #import "Nose.h"
 #import "Mouth.h"
 #import "Ear.h"
+#import "Brain.h"
 
 @interface Head : BodyPart
 
+@property (strong, nonatomic) Brain *brain;
 @property (strong, nonatomic) Eye *eyes;
 @property (strong, nonatomic) Nose *nose;
 @property (strong, nonatomic) Mouth *mouth;

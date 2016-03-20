@@ -26,6 +26,36 @@
     }
 }
 
+- (void) bubbleSort: (NSMutableArray *) unsortedArray
+{
+    NSUInteger index;
+    NSMutableArray *unsortedArrayCopy = [unsortedArray mutableCopy];
+
+    for (index = 0; index < [unsortedArray count] - 1; index++) {
+        if (((NSNumber *) unsortedArray[index + 1]).integerValue < ((NSNumber *)unsortedArray[index]).integerValue){
+            id temporaryObject = unsortedArray[index];
+            [unsortedArray replaceObjectAtIndex:index withObject:unsortedArray[index + 1]];
+            [unsortedArray replaceObjectAtIndex:index + 1 withObject:temporaryObject];
+        }
+    }
+
+    if ([self compareResultArray:unsortedArray withOriginalArray:unsortedArrayCopy]) {
+        return;
+    }
+    else ([self bubbleSort:unsortedArray]);
+}
+
+- (BOOL) compareResultArray: (NSMutableArray *) arrayToCheck
+          withOriginalArray: (NSMutableArray *) originalArray
+{
+    BOOL isSorted = NO;
+    if ([arrayToCheck isEqualToArray:originalArray]) {
+        isSorted = YES;
+    }
+    return isSorted;
+}
+
+
 + (void)sorted: (NSMutableArray *)unsortedArray{
     
     NSUInteger index;

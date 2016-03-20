@@ -14,6 +14,7 @@
 {
     self = [super init];
     NSLog(@"I'VE GOT A HEAD");
+    self.brain = [[Brain alloc] init];
     self.eyes = [[Eye alloc] init];
     self.nose = [[Nose alloc] init];
     self.ears = [[Ear alloc] init];

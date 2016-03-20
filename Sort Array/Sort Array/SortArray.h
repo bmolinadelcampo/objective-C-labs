@@ -13,6 +13,12 @@
 @property NSString *test;
 
 - (void) sort: (NSMutableArray *) unsortedArray;
+
+- (void) bubbleSort: (NSMutableArray *) unsortedArray;
+
+- (BOOL) compareResultArray: (NSMutableArray *) arrayToCheck
+          withOriginalArray: (NSMutableArray *) originalArray;
+
 + (void) sorted: (NSMutableArray *) unsortedArray;
 
 @end
